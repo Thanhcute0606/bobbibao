@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ChatBb",
+    "slug": "chatbb",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/chat.jpg",
+    "splash": {
+      "image": "./assets/chatbot.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bobbibao.chat"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "This is a ChatBb App",
+    "githubUrl": "https://github.com/Thanhcute0606/bobbi"
+  }
+}
